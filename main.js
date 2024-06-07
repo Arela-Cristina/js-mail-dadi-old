@@ -3,6 +3,7 @@ const emailInputV = document.querySelector(".emailInput");
 
 const sendButtonV = document.querySelector(".sendButton");
 
+
 // console.log(sendButtonV)
 
 sendButtonV.addEventListener("click",
@@ -10,6 +11,17 @@ sendButtonV.addEventListener("click",
         e.preventDefault();
         let valoreButton = emailInputV.value;
         console.log(valoreButton);
+
+        const guestList = ["cri@gmail.com", "simo@gmail.com", "stef@gmail.com"];
+        console.log(guestList);
+
+        if (valoreButton = guestList) {
+            console.log("Welcome")
+        }
+
+        else {
+            console.log ("Error")
+        }
     }
 
 );
