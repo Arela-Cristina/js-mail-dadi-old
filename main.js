@@ -6,3 +6,10 @@ console.log(emailGuest);
 const sendButton = document.querySelector(".sendButton");
 console.log(sendButton);
 
+const arrayGuest = ['simo@gmail.com', 'cri@gmail.com', 'mono@gmail.com'];
+
+for (let i = 0; i < arrayGuest.length; i++) {
+    const guest = arrayGuest[i];
+    console.log('Somos los invitados', guest);
+
+}
