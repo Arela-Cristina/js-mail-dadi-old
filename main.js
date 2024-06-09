@@ -1,28 +1,8 @@
-const emailInputV = document.querySelector(".emailInput");
-// console.log(emailInputV);
+//chiediamo la mail ai guests
+const emailGuest = document.querySelector(".emailInput");
+console.log(emailGuest);
 
-const sendButtonV = document.querySelector(".sendButton");
-
-
-// console.log(sendButtonV)
-
-sendButtonV.addEventListener("click",
-    function (e) {
-        e.preventDefault();
-        let valoreButton = emailInputV.value;
-        console.log(valoreButton);
-
-        const guestList = ["cri@gmail.com", "simo@gmail.com", "stef@gmail.com"];
-        console.log(guestList);
-
-        if (valoreButton = guestList) {
-            console.log("Welcome")
-        }
-
-        else {
-            console.log ("Error")
-        }
-    }
-
-);
+//chiediamo la mail ai guests
+const sendButton = document.querySelector(".sendButton");
+console.log(sendButton);
 
